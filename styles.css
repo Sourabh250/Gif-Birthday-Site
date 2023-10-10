@@ -61,37 +61,35 @@ h1, h2, h3, h4, p {
     background-image: url("images/gift-cover.jpg");
     background-size: cover;
     background-position: center;
-}
-
-.gift-img:hover {
     transition: background-image 0.3s ease-in-out;
 }
+
 
 #gift-img-happy:hover {
     background-image: url("images/kakashi.gif");
 }
 
-#gift-img-kakashi:hover {
+#gift-img-kakashi:hover  {
     background-image: url("images/angry-kakashi.gif");
 }
 
-#gift-img-hot:hover {
+#gift-img-hot:hover  {
     background-image: url("images/run.gif");
 }
 
-#gift-img-genius:hover {
+#gift-img-genius:hover  {
     background-image: url("images/hokage.gif");
 }
 
-#gift-img-badass:hover {
+#gift-img-badass:hover  {
     background-image: url("images/baryon.webp");
 }
 
-#gift-img-sasuke:hover {
+#gift-img-sasuke:hover  {
     background-image: url("images/sasuke.gif");
 }
 
-#gift-img-cheers:hover {
+#gift-img-cheers:hover  {
     background-image: url("images/cheers.gif");
 }
 
