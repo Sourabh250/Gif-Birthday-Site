@@ -6,6 +6,11 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
+        <audio controls autoplay loop id="audio-player">
+                <source src="/sound/itachi_theme.mp3" type="audio/mpeg">
+        </audio>
+
+
         <div id="header">
             <h1>Today is Naruto's birthday 🎉</h1>
             <img id="bff-img" src="images/Naruto.webp">
@@ -50,5 +55,16 @@
         
         <p id="footer">Want to create your own Birthday GIFt site? Take <a href="https://scrimba.com/learn/htmlandcss" target="_blank">this HTML & CSS course.</a></p>
         
+
+
+        <script>
+            // JavaScript to show/hide the audio player when it starts playing
+            const audioPlayer = document.getElementById('audio-player');
+    
+            audioPlayer.addEventListener('play', function() {
+                // Hide the audio player when it starts playing
+                audioPlayer.style.display = 'none';
+            });
+        </script>
     </body>
 </html>

@@ -114,3 +114,14 @@ https://scrimba.com/learn/htmlandcss
 Text:
 Want to create your own Birthday GIFt site? Take this HTML & CSS course.
 */
+
+
+/* Style the audio element itself */
+audio {
+    width: 25%;
+    background-color: #333; /* Background color */
+    color: #fff; /* Text color */
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
