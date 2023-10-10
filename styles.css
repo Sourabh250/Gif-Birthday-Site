@@ -63,6 +63,10 @@ h1, h2, h3, h4, p {
     background-position: center;
 }
 
+.gift-img:hover {
+    transition: background-image 0.3s ease-in-out;
+}
+
 #gift-img-happy:hover {
     background-image: url("images/kakashi.gif");
 }
