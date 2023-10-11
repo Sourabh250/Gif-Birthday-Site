@@ -118,9 +118,19 @@ Text:
 Want to create your own Birthday GIFt site? Take this HTML & CSS course.
 */
 
+#playButton {
+    background: #2a9d8f;
+    color: #ffffff;
+    margin-top: 20px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    text-shadow: 0 0 4px black;
+}
 
 /* Style the audio element itself */
 audio {
+    display: none;
     width: 25%;
     background-color: #333; /* Background color */
     color: #fff; /* Text color */
